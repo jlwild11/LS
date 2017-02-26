@@ -1,5 +1,13 @@
-puts "Type in your name."
+puts "Type in your first name."
 
-name = gets.chomp
+first_name = gets.chomp
 
-puts "Hello #{name}. You are awesome!"
+puts "Type in your last name."
+
+last_name = gets.chomp
+
+puts "Hello #{first_name} #{last_name}. You are awesome!"
+
+10.times do
+  puts first_name + " " + last_name
+end
